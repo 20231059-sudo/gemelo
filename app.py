@@ -119,7 +119,6 @@ if st.button('Generar señales y entrenar modelos',type='primary') or 'results' 
     st.session_state['results']=results
     st.session_state['preds']=preds
     st.session_state['horizon']=horizon
-    st.session_state['threshold']=threshold
 
 if 'results' in st.session_state:
     df=st.session_state['df'];results=st.session_state['results'];preds=st.session_state['preds']
